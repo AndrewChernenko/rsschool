@@ -18,4 +18,6 @@ alert( 'Hello world!' );
 *Specialized secondary*
 ### English level
 *B2*
-![myPhoto](rsschool-cv/rsschool-cv/img/myPhoto.jpg "My photo")
+
+
+![myPhoto](img/myPhoto.jpg "My photo")
