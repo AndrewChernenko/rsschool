@@ -59,9 +59,6 @@ body {
     display: flex;
     flex-flow: row wrap;
 }
-.lang {
-    /* display: inline-block; */
-}
 .circle {
     width: 10px;
     height: 10px;
