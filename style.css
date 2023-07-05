@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 body {
     width: 1440px;
@@ -21,7 +21,7 @@ body {
     padding: 0 20px;
     line-height: 50px;
     color: #313131;
-    text-decoration: none;  
+    text-decoration: none;
     transition: color 0.5s;
     font-size: 28px;
     font-family: 'Inria Serif', serif;
@@ -30,7 +30,7 @@ aside {
     width: 27%;
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient(135deg, #021758 11.13%, #020111 100%);  
+    background: linear-gradient(135deg, #021758 11.13%, #020111 100%);
 }
 .avatar {
     width: 200px;
@@ -98,7 +98,7 @@ aside {
     margin-top: 25px;
 }
 .grey {
-    background: #848484;;
+    background: #848484;
 }
 footer {
     background-color: red;
