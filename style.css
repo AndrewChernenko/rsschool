@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}   
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link:hover {
+    color: #2819c7;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #313131;
+    text-decoration: none;  
+    transition: color 0.5s;
+    font-size: 28px;
+    font-family: 'Inria Serif', serif;
+}
+aside {
+    width: 27%;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, #021758 11.13%, #020111 100%);  
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 200px;
+    background-image: url(img/myPhoto.jpg);
+    background-size: cover;
+    margin: 50px 100px 0 100px;
+    float: left;
+}
+.block {
+    margin: 50px 80px 0 50px;
+    width: 100%;
+}
+.nav {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+    margin: 0 0 20px 0;
+
+}
+.underline {
+    width: 50px;
+    height: 2px;
+    background: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.name {
+    font-family: 'Inria Sans', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.text {
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 5px;
+}
+.languages {
+    display: flex;
+    flex-flow: row wrap;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    display: inline-block;
+    margin-left: 2px;
+}
+.circles {
+    order: 999;
+    margin-left: auto;
+    margin-top: 25px;
+}
+.grey {
+    background: #848484;;
+}
+footer {
+    background-color: red;
+    width: 20px;
+    height: 50px;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+main {
+    background-color: blue;
+    width: 73%;
+    height: 1150px;
+}
+header {
+    width: 100%;
+}
+footer {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    main {
+      width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
