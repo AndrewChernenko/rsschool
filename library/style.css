@@ -1,0 +1,136 @@
+main {
+    width: 1440px;
+    margin: 0 auto
+}
+header {
+    width: 1440px;
+    height: 90px;
+    background: #0C0C0E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.site-name {
+    color: #FFF;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    margin: 20px;
+}
+nav {
+    margin-left: auto;
+    margin-right: 40px;
+}
+.header-nav {
+    display: flex;
+    margin: 20px;
+}
+.header-nav li {
+    margin: 0 15px;
+    list-style-type: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+}
+.profile {
+    width: 28px;
+    height: 28px;
+    margin: 31px 20px 31px 0;
+}
+.main-banner {
+    background-image: url(img/bg.png);
+    width: 1440px;
+    height: 600px;
+    position: relative;
+}
+.main-banner-text {
+    text-align: center;
+    display: flex;
+    padding: 35px 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C0C0E;
+    position: absolute;
+    margin-top: 220px;
+}
+.main-banner-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: 520px;
+    margin: 0;
+}
+.overlay {
+    position: absolute;
+    width: 1440px;
+    height: 300px;
+    background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
+}
+h2 {
+    color: #0C0C0E;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 0;
+}
+.black-line {
+    width: 50px;
+    height: 1px;
+    background: #0C0C0E;
+    margin: auto;
+}
+.text-about {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 40px;
+}
+.about-photos {
+    height: 560px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+}
+.slider input {
+    display: none;
+  }
+.slider label {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #0C0C0E;
+    cursor: pointer;
+    margin: 20px 10px;
+  }
+  #button1:checked ~ #hw1,
+  #button2:checked ~ #hw2,
+  #button3:checked ~ #hw3,
+  #button4:checked ~ #hw4 {
+    background: #BB945F;
+  }
