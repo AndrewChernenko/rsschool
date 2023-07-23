@@ -303,3 +303,129 @@ h3 {
 .coffee-shop {
     margin-top: 60px;
 }
+.coffee-shop h3 {
+    width: 1400px;
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.menu {
+    margin: 40px 20px 60px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.coffee {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+.coffee h4 {
+    color: #BB945F;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.coffee ul {
+    list-style-type:  none;
+    margin: 0;
+    padding: 0;
+}
+.coffee li {
+    display: flex;
+    margin-bottom: 40px;
+}
+.menu-line {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    margin: 19px 60px;
+}
+.coffee-name {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    width: 200px;
+}
+.coffee-price {
+    color: #000;
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.menu p {
+    margin: 0;
+}
+.desserts h4 {
+    color: #BB945F;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.desserts ul {
+    list-style-type:  none;
+    margin: 0;
+    padding: 0;
+}
+.desserts li {
+    display: flex;
+    margin-bottom: 40px;
+}
+.menu-line {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    margin: 19px 60px;
+}
+.desserts-name {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    width: 215px;
+    text-align: right;
+}
+.desserts-price {
+    color: #000;
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.menu p {
+    margin: 0;
+}
+.desserts {
+    display: flex;
+    width: 482px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
