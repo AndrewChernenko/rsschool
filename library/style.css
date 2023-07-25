@@ -429,3 +429,48 @@ h3 {
     align-items: flex-end;
     gap: 40px;
 }
+.contacts-block {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contacts-block a {
+    text-decoration: none;
+    color: #000;
+}
+.contacts-block h5 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 0 0 40px 0;
+}
+.contacts-block h6 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 40px 0 20px 0;
+}
+.contacts-block p {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.contacts-map {
+    width: 696px;
+    height: 414px;
+    background-image: url(/rsschool/library/img/map.png);
+}
