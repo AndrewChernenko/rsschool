@@ -294,7 +294,7 @@ h3 {
 #image-book1 {
     width: 200px;
     height: 300px;
-    background-image: url(img/book\ 1.png);
+    background-image: url(img/book1.png);
     position: absolute;
     top: 256px;
     left: 390px;
@@ -302,7 +302,7 @@ h3 {
 #image-book2 {
     width: 200px;
     height: 300px;
-    background-image: url(img/book\ 2.png);
+    background-image: url(img/book2.png);
     position: absolute;
     top: 256px;
     left: 390px;
@@ -310,7 +310,7 @@ h3 {
 #image-book3 {
     width: 200px;
     height: 300px;
-    background-image: url(img/book\ 3.png);
+    background-image: url(img/book3.png);
     position: absolute;
     top: 256px;
     left: 390px;
@@ -318,7 +318,7 @@ h3 {
 #image-book4 {
     width: 200px;
     height: 300px;
-    background-image: url(img/book\ 4.png);
+    background-image: url(img/book4.png);
     position: absolute;
     top: 256px;
     left: 390px;
